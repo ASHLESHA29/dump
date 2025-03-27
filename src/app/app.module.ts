@@ -21,6 +21,7 @@ import { SignOutComponent } from './sign-out/sign-out.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { LogInComponent } from './log-in/log-in.component';
 import { LogOutComponent } from './log-out/log-out.component';
+import { MaidComponent } from './maid/maid.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,8 @@ import { LogOutComponent } from './log-out/log-out.component';
     SigninComponent,
     SignOutComponent,
     LogInComponent,
-    LogOutComponent
+    LogOutComponent,
+    MaidComponent
   ],
   imports: [
     BrowserModule,

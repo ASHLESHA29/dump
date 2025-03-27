@@ -1,0 +1,233 @@
+#aa {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#ab {
+    color: rgb(224, 160, 81);
+    padding: 20px;
+    padding-top: 130px;
+}
+
+.hero {
+    position: relative;
+    margin-top: 30px;
+}
+
+.hero img {
+    width: 100%;
+    height: 500px;
+}
+
+.hero h2 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background: rgba(32, 32, 32, 0.6);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.btn {
+     display: inline-block;
+    background: rgb(223, 132, 102);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: -440px;
+}
+
+#services{
+    padding: 30px 0;
+    margin-top: 50px;
+}
+.services-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+.services-list div{
+    background: #f4f2f2;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: 10px;
+    transition: 0.5s, transform 0.5s;
+}
+.services-list div i{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.services-list div h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.services-list div a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.services-list div:hover{
+    background: rgb(223, 132, 102);
+    transform: translateY(-10px);
+}
+
+.testimonials {
+    background: #f1f1f1;
+    padding: 20px;
+    margin-top: 70px;
+}
+
+.testimonials h2{
+    color:rgb(223, 132, 102) ;
+}
+
+#four{
+    height: 1150px;
+	background-color: #f8fbfd;
+    width: 100%;
+    margin-top: 90px;
+}
+#fem{
+    color: rgb(27, 26, 26);
+    text-align:left;
+    font-size: 32px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 40px;
+    margin-top: 60px;
+    position:absolute;
+    margin-left: 60px;
+}
+#mal{
+    color: rgb(27, 26, 26);
+    text-align:left;
+    font-size: 32px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 40px;
+    margin-top: 520px;
+    position:absolute;
+    margin-left: 60px;
+}
+#cd{
+	background-color: #ffcdce ;
+    border-radius: 20px;
+    width: 700px;
+    margin: 10% auto;
+    margin-top: -30px;
+    height: 200px;
+}
+#cdd{
+	background-color: #ffcdce ;
+    border-radius: 20px;
+    width: 700px;
+    margin: 10% auto;
+    height: 200px;
+    margin-top: -50px;
+}
+#cdb{
+	background-color: #ffcdce ;
+    border-radius: 20px;
+    width: 700px;
+    margin: 10% auto;
+    height: 200px;
+    margin-top: -50px;
+}
+.card-title{
+    font-size: 20px;
+    margin-bottom: 64px;
+    margin-top: 0px;
+    color: black;
+}
+#rr{
+    padding: 80px;
+    margin: 87px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    width: 498px;
+    height: 37px;
+}
+
+#sd{
+    margin-top: 30px;
+}
+.scroll-bg{
+	background-color: #f8fbfd;
+    width: 940px;
+    height: 250px;
+    padding: 38px;
+    margin-top: 127px;
+    position: absolute;
+    margin-left: 142px;
+}
+.scroll-div{
+    width: 900px;
+	background-color: #ffffff;
+    height: 246px;
+    overflow: hidden;
+    overflow-y: scroll;
+    margin-left: 17px;
+}
+.scroll-object{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    padding: 20px;
+}
+#kk{
+    margin-top: 600px;
+}
+.card{
+    margin-left: 100px;
+    position: absolute;
+    margin-top: 140px;
+}
+#jack{
+    margin-left: 10px;
+    width: 90%;
+}
+#pic{
+    height: 200px;
+}
+.card-text{
+    margin-top: -56px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#go{
+    margin-top: 20px;
+    margin-left: 103px;
+    background-color: rgb(20, 101, 223);
+}
+#oe{
+    margin-left: 60px;
+}
+#tt{
+    margin-left: 355px;
+}
+#th{
+    margin-left: 655px;
+}
+#fo{
+    margin-left: 950px;
+}
+#you{
+    margin-top: 465px;
+    position: absolute;
+}
+
+footer {
+    background: #222;
+    color: white;
+    padding: 10px;
+    margin-top: 50px;
+}

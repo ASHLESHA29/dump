@@ -1,0 +1,71 @@
+<div id="aa">
+    <div id="ab">
+        <h1>Cleaning Services</h1>
+        <p>Reliable & Affordable Cleaning Services</p>
+    </div>
+
+    <div class="hero">
+        <img src="../../assets/maid1.jpg" alt="Cleaning Services">
+        <h2>Your Home, Our Responsibility</h2>
+        <a href="#contact" class="btn">Get a Quote</a>
+    </div>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Services</h1>
+            <div class="services-list">
+                <div>
+                    <h2>Home Cleaning</h2>
+                </div>
+                <div>
+                    <h2>Office Cleaning</h2>
+                </div>
+                <div>
+                    <h2>Deep Cleaning</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="four">
+        <div>
+            <h2 id="fem">Female Maid</h2>
+            <div class="row" id="jack">
+                <!-- Loop through the people array and display a card for each person -->
+                <div class="col-lg-3" *ngFor="let person of people">
+                    <div class="card" style="width: 16rem; height: 420px;" id="oe">
+                        <img class="card-img-top" id="pic" [src]="person.image" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">{{ person.name }}</h5>
+                            <p class="card-text">{{ person.profession }}</p>
+                            <a href="#" class="btn btn-primary" id="go" (click)="bookNow(person)">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div>
+            <h2 id="mal">Male Maid</h2>
+            <div class="row" id="jack">
+                <!-- Loop through the people array for Male beauticians as well -->
+                <div class="col-lg-3" *ngFor="let person of peoples" style="margin-top: 470px;">
+                    <div class="card" style="width: 16rem; height: 420px;" id="oe">
+                        <img class="card-img-top" id="pic" [src]="person.image" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">{{ person.name }}</h5>
+                            <p class="card-text">{{ person.profession }}</p>
+                            <a href="#" class="btn btn-primary" id="go" (click)="bookNow(person)">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Cleaning Services</p>
+    </footer>
+</div>
