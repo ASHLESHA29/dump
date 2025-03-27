@@ -1,0 +1,49 @@
+.sign-in-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f7f0f0;
+  border-radius: 8px;
+  margin-top: 150px;
+  margin-left: 240px;
+}
+.row{
+  width: 900px;
+}
+
+.form-control {
+  width: 380px;
+  padding: 5px;
+  margin: 8px 0;
+}
+
+.invalid-feedback {
+  color: red;
+}
+
+.btn {
+  width: 250px;
+  padding: 10px;
+  background-color: #f34e51;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-left: 60px;
+}
+
+.btn:disabled {
+  background-color: #a9a9a9;
+}
+
+#pic{
+  height: 440px;
+  width: 350px;
+}
+#one{
+  width: 500px;
+}
+#two{
+  width: 500px;
+  margin-left: -125px;
+  margin-top: 35px;
+}

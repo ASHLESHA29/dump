@@ -1,0 +1,39 @@
+.container-fluid{
+    color: black;
+    width: 100%;
+    background-color: white;
+}
+.navbar-nav{
+    margin-left: -790px;
+    color: black;
+    text-align: center;
+    background-color: white;
+}
+.btn-secondary-outline{
+    background-color: white;
+    border-color: rgb(3, 3, 78);
+    margin-left: 120px;
+    background-color: #f34e51;
+    border-color: #f34e51;
+    color: white;
+}
+.nav-item{
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+.navbar-expand{
+    background-color:transparent;
+}
+.navbar-expand-sm .navbar-nav .nav-link {
+    color: black;
+}
+#logo{
+    margin-left: 20px;
+}
+.btn-warning{
+    background-color: #f34e51;
+    border-color: #f34e51;
+    color: white;
+}
+

@@ -1,0 +1,73 @@
+<!-- 1 -->
+<div>
+    <img src="../../assets/Dog-therapy/golden-retriever-puppy.jpg" height="550px" width="100%" id="dog">
+    <div id="box">
+        <h1 id="nur">Nurture Wellness With Dogs</h1>
+        <p id="exp">Experience the joy and healing only our therapy dogs can provide. Let's create moments of happiness together in Nagpur.</p>
+    </div>
+</div>
+
+<!-- 2 -->
+<div id="two">
+    <h1 id="ser">Services</h1>
+    <div class="row" id="fan">
+        <div class="col-lg-3" id="db">
+            <img src="../../assets/Dog-therapy/1.jpg" id="mop">
+        </div>
+        <div class="col-lg-3" id="dc">
+            <img src="../../assets/Dog-therapy/2.jpg" id="mop">
+        </div>
+        <div class="col-lg-3" id="dd">
+            <img src="../../assets/Dog-therapy/3.jpg" id="mop">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-3" id="de">
+            <h2 id="pe">Personal Therapy Sessions</h2>
+            <p id="sp">Spend one-on-one time with our trained therapy dogs. Feel calm and relaxed in no time.</p>
+        </div>
+        <div class="col-lg-3" id="df">
+            <h2 id="pe">Group Therapy Visits</h2>
+            <p id="sp">Experience the healing power of our therapy dogs in a small, supportive group setting.</p>
+        </div>
+        <div class="col-lg-3" id="dg">
+            <h2 id="pe">School Therapy Programs</h2>
+            <p id="sp">Bring joy and reduce stress for students with visits from our friendly therapy dogs.</p>
+        </div>
+    </div>
+</div>
+
+
+<!-- 3 -->
+<div id="five">
+    <div>
+        <img src="../../assets/Dog-therapy/4.jpg" id="vald">
+    </div>
+    <div>
+        <h3 id="us">About us</h3>
+        <p id="all">Welcome to our dog therapy service based in Nagpur, MH. We believe that the bond between humans and dogs is powerful and can bring joy and comfort. Our team is passionate about helping you experience the positive effects of dog therapy.<br><br>We offer a range of services designed to meet your needs. Whether you are seeking relief from stress, companionship, or just a moment of happiness, we are here for you. Join us and feel the difference a friendly, furry companion can make in your life.</p>
+    </div>    
+</div>
+
+
+<!-- 4 -->
+<div id="four">
+    <div>
+        <h2 id="fem">Dog Owners</h2>
+        <div class="row">
+            <div class="row" id="jack">
+                <!-- Loop through the people array and display a card for each person -->
+                <div class="col-lg-3" *ngFor="let person of people">
+                    <div class="card" style="width: 16rem; height: 420px;" id="oe">
+                        <img class="card-img-top" id="pic" [src]="person.image" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">{{ person.name }}</h5>
+                            <p class="card-text">{{ person.profession }}</p>
+                            <a href="#" class="btn btn-primary" id="go" (click)="bookNow(person)">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

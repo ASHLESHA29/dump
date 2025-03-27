@@ -1,0 +1,70 @@
+<div id="body">
+    <h2>Splash Some Color on Your Home</h2>
+    <p id="dull">Turn dull walls into vibrant masterpieces with our expert painting in Nagpur! Let's brush up your home's style!</p>
+</div>
+
+<div id="my">
+    <h4>MY SERVICES</h4>
+</div>
+
+<div>
+    <div class="row">
+        <div class="col-lg-6">
+            <img src="../../assets/painting/1.jpg" id="pt">
+        </div>
+        <div class="col-lg-6">
+            <img src="../../assets/painting/2.jpg" id="ptt">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-6">
+            <p id="int">Interior Wall Painting</p>
+            <p id="we">We bring vibrant colors to your walls, making your home feel fresh and cozy.</p>
+        </div>
+        <div class="col-lg-6">
+            <p id="ext">Exterior Home Painting</p>
+            <p id="mak">Make your house stand out with our expert exterior painting. It's durable and weather-resistant.</p>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="row">
+        <div class="col-lg-6">
+            <img src="../../assets/painting/3.jpg" id="pt">
+        </div>
+        <div class="col-lg-6">
+            <img src="../../assets/painting/4.jpg" id="ptt">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-6">
+            <p id="int">Furniture Repainting</p>
+            <p id="we">Give old furniture a new life with our skilled repainting services. Perfect for any furniture type.</p>
+        </div>
+        <div class="col-lg-6">
+            <p id="ext">Wall Texturing Services</p>
+            <p id="mak">Add unique textures to your walls with our creative wall texturing services for a stylish look.</p>
+        </div>
+    </div>
+</div>
+
+<div id="four">
+    <div>
+        <h2 id="fem">Our Painters</h2>
+        <div class="row">
+            <div class="row" id="jack">
+                <!-- Loop through the people array and display a card for each person -->
+                <div class="col-lg-3" *ngFor="let person of people">
+                    <div class="card" style="width: 16rem; height: 420px;" id="oe">
+                        <img class="card-img-top" id="pic" [src]="person.image" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">{{ person.name }}</h5>
+                            <p class="card-text">{{ person.profession }}</p>
+                            <a href="#" class="btn btn-primary" id="go" (click)="bookNow(person)">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

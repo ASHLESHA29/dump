@@ -1,0 +1,93 @@
+<div>
+    <img src="../../assets/Cook/logo.png" id="aa">
+</div>
+    
+    <!---1--->
+    <div id="back">
+        <h1>Savor Nagpur's Finest<br> Cuisine</h1>
+        <p id="ba">Enjoy delicious home-cooked meals right here in Nagpur. <br>We make family favorites using only fresh ingredients and <br>time-honored recipes.</p>
+        <button type="button" class="btn btn-dark" id="bc">Order Now</button>
+    </div>
+
+    <!---2---->
+    <div>
+        <h2>Delicious Home<br> Cooking in <br>Nagpur</h2>
+        <p id="ca">Discover the joy of home-cooked meals with cook <br>in Nagpur, MH. Our services bring tasty, homemade <br>dishes right to your table. Enjoy the comfort of home<br> cooking without the hassle.</p>
+    </div>
+
+    <!---3---->
+    <div>
+        <h3>Core packages</h3>    
+    </div>
+    <div class="row">
+        <div class="col">
+            <img src="../../assets/Cook/1.jpg" id="da">
+        </div>
+        <div class="col">
+            <img src="../../assets/Cook/2.jpg" id="db">
+        </div>
+        <div class="col">
+            <img src="../../assets/Cook/3.jpg" id="dc">
+        </div>
+    </div>
+    <div>
+        <div class="row">
+            <div>
+                <h4>Quick Lunch Solutions</h4>
+                <p id="dd">Enjoy a homemade lunch that's ready in <br>minutes. Perfect for busy weekdays.</p>
+            </div>
+            <div>
+                <h5>Weekend Brunch Delights</h5>
+                <P id="de">Treat yourself to a delightful brunch <br>with our special weekend menu.</P>
+            </div>
+            <div>
+                <h6>Personal Chef Experience</h6>
+                <p id="df">Have a chef prepare a custom meal in <br>your home for a special occasion.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 4 -->
+<div id="four">
+    <div>
+        <h2 id="fem">Cooks</h2>
+        <div class="row">
+            <div class="row" id="jack">
+                <!-- Loop through the people array and display a card for each person -->
+                <div class="col-lg-3" *ngFor="let person of people">
+                    <div class="card" style="width: 16rem; height: 420px;" id="oe">
+                        <img class="card-img-top" id="pic" [src]="person.image" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">{{ person.name }}</h5>
+                            <p class="card-text">{{ person.profession }}</p>
+                            <a href="#" class="btn btn-primary" id="go" (click)="bookNow(person)">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!---4--->
+    <h3 id="us">About us</h3>
+    <p id="ea"> Welcome to our cozy corner of Nagpur, MH! At Home Cooking, we believe in the joy of simple, homemade meals. Our kitchen<br> is where flavors come alive, making every dish with love and care. </p>      
+    <p id="eb">We invite you to join us in a culinary adventure that's both satisfying and comforting. Let's share stories, break bread together, <br>and enjoy the warmth of home-cooked food.</p>
+    
+    <!---5--->
+    <div>
+        <div class="row">
+            <img src="../../assets/Cook/4.jpg" id="fa">
+            <img src="../../assets/Cook/5.jpg" id="fb">
+            <img src="../../assets/Cook/6.jpg" id="fc">
+        </div>
+    </div>
+    <div class="div">
+        <div class="row">
+            <img src="../../assets/Cook/7.jpg" id="fd">
+            <img src="../../assets/Cook/8.jpg" id="fe">
+            <img src="../../assets/Cook/9.jpg" id="ff">
+        </div>
+    </div>
+

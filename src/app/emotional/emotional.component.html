@@ -1,0 +1,84 @@
+<!-- 1 -->
+<div>
+    <img src="../../assets/emotional/11.jpg" height="600px" width="100%" id="picc">
+    <div id="box">
+        <h1 id="over">Overcome with Compassion</h1>
+        <p id="we">We aid in building emotional strength behind painful thoughts and experiences.</p>
+    </div>
+</div>
+
+<!-- 2 -->
+<div id="two">
+    <h1 id="ser">Core packages</h1>
+    <div class="row" id="fan">
+        <div class="col-lg-3" id="db">
+            <img src="../../assets/emotional/2.webp" id="mop">
+        </div>
+        <div class="col-lg-3" id="dc">
+            <img src="../../assets/emotional/3.jpg" id="mop">
+        </div>
+        <div class="col-lg-3" id="dd">
+            <img src="../../assets/emotional/4.jpg" id="mop">
+        </div>
+        <div class="col-lg-3" id="dz">
+            <img src="../../assets/emotional/5.webp" id="mop">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-6">
+            <h3 id="de">Personal Counseling</h3>
+            <p id="one">One-on-one sessions to address personal challenges and improve mental well-being.</p>
+        </div>
+        <div class="col-lg-6">
+            <h3 id="df">Group Therapy</h3>
+            <p id="smll">Small group sessions to share experiences and support each other’s growth.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-6">
+            <h3 id="dg">Stress Management</h3>
+            <p id="tec">Techniques and strategies to manage stress and improve daily life quality.</p>
+        </div>
+        <div class="col-lg-6">
+            <h3 id="dgg">Crisis Intervention</h3>
+            <p id="imm">Immediate support for urgent emotional and mental health crises.</p>
+        </div>
+    </div>
+</div>
+
+
+<!-- 3 -->
+<div id="four">
+    <div>
+        <h2 id="fem">Consellors</h2>
+        <div class="row">
+            <div class="row" id="jack">
+                <!-- Loop through the people array and display a card for each person -->
+                <div class="col-lg-3" *ngFor="let person of people">
+                    <div class="card" style="width: 16rem; height: 420px;" id="oe">
+                        <img class="card-img-top" id="pic" [src]="person.image" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">{{ person.name }}</h5>
+                            <p class="card-text">{{ person.profession }}</p>
+                            <a href="#" class="btn btn-primary" id="go" (click)="bookNow(person)">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- 4 -->
+<div id="five">
+    <div>
+        <img src="../../assets/emotional/6.jpg" id="vald">
+    </div>
+    <div>
+        <h3 id="us">About us</h3>
+        <p id="all">Our counseling service in Nagpur, Maharashtra, India, focuses on providing emotional support and guidance. We help individuals navigate life's challenges and improve their mental health.<br><br>
+            Our team of experienced counselors uses various techniques to address your needs. We offer personalized care that fosters understanding, growth, and healing.</p>
+    </div>    
+</div>

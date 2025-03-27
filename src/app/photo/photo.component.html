@@ -1,0 +1,50 @@
+<!-- 1 -->
+<div>
+    <img src="../../assets/photo/1.avif" height="550px" width="100%" id="dog">
+    <div id="box">
+        <h1 id="nur">Capture Your Best Moments</h1>
+        <p id="exp">We offer exclusive photography and videography services in Nagpur, reflecting every special memory with clarity.</p>
+    </div>
+</div>
+
+<!--2-->
+<div id="get">
+    <div id="ea">
+        <p id="ready">SkillVibe.store offers top-notch photography and videography services in Nagpur, MH. We capture moments with precision and creativity, ensuring each shot tells a story.Our team of skilled professionals uses the latest equipment to deliver high-quality visuals. Whether it's a wedding, corporate event, or personal project, we bring your vision to life.</p>
+    </div>
+</div>
+
+
+<!-- 3 -->
+ <div>
+        <div class="col-lg-6">
+            <img src="../../assets/photo/3.jpg" id="th">
+        </div>
+        <div class="col-lg-6" id="bl">
+            <h1 id="how">Capture Moments with skillVibe.store in Nagpur</h1>
+            <p id="our">Trust skillVibe.store for top-notch photography and videography services in Nagpur, MH. Our experts are ready to help you preserve your special moments with professional quality.</p>
+        </div>
+ </div>
+
+
+<!-- 4 -->
+<div id="four">
+    <div>
+        <h2 id="fem"></h2>
+        <div class="row">
+            <div class="row" id="jack">
+                <!-- Loop through the people array and display a card for each person -->
+                <div class="col-lg-3" *ngFor="let person of people">
+                    <div class="card" style="width: 16rem; height: 420px;" id="oe">
+                        <img class="card-img-top" id="pic" [src]="person.image" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">{{ person.name }}</h5>
+                            <p class="card-text">{{ person.profession }}</p>
+                            <a href="#" class="btn btn-primary" id="go" (click)="bookNow(person)">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

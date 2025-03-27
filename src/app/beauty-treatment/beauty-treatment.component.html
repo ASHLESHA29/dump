@@ -1,0 +1,92 @@
+<!--1-->
+<div id="bg"></div>
+<div>
+    <div id="box">
+        <h1 id="dis">Discover Your Best Self</h1>
+        <p id="tra">Transform your home into a personal spa with our professional beauty treatment services. From hair styling to facials, manicures, and more, enjoy luxury treatments without stepping out of your home.</p>
+        <p id="ex">Explore the mission and values of SkillVibe.store Beauty Salon, dedicated to enhancing your natural beauty.</p>
+    </div>
+</div>
+
+<!--2-->
+<div id="two">
+    <h1 id="ser">Services</h1>
+    <p id="all">All our services are available for you right now!</p>
+    <div class="row" id="fan">
+        <div class="col-lg-3" id="db">
+            <img src="../../assets/beauty-treatment/person-styling.jpg" id="mop">
+        </div>
+        <div class="col-lg-3" id="dc">
+            <img src="../../assets/beauty-treatment/mani.jpg" id="mop">
+        </div>
+        <div class="col-lg-3" id="dd">
+            <img src="../../assets/beauty-treatment/fac.jpg" id="mop">
+        </div>
+        <div class="col-lg-3" id="dz">
+            <img src="../../assets/beauty-treatment/pedi.jpg" id="mop">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-3" id="de">
+            <p>Hair Styling</p>
+        </div>
+        <div class="col-lg-3" id="df">
+            <p>Manicure</p>
+        </div>
+        <div class="col-lg-3" id="dg">
+            <p>Facials</p>
+        </div>
+        <div class="col-lg-3" id="dgg">
+            <p>Pedicure</p>
+        </div>
+    </div>
+</div>
+
+
+<!--3-->
+<div class="row" id="get">
+    <div id="ea">
+        <p id="ready">Ready to experience top-notch services at your doorstep? Book Now and let us handle the rest!</p>
+    </div>
+</div>
+
+
+<!--4-->
+<div id="four">
+    <div>
+        <h2 id="fem">Female Beautician</h2>
+        <div class="row" id="jack">
+            <!-- Loop through the people array and display a card for each person -->
+            <div class="col-lg-3" *ngFor="let person of people">
+                <div class="card" style="width: 16rem; height: 420px;" id="oe">
+                    <img class="card-img-top" id="pic" [src]="person.image" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ person.name }}</h5>
+                        <p class="card-text">{{ person.profession }}</p>
+                        <a href="#" class="btn btn-primary" id="go" (click)="bookNow(person)">Book Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div>
+        <h2 id="mal">Male Beautician</h2>
+        <div class="row" id="jack">
+            <!-- Loop through the people array for Male beauticians as well -->
+            <div class="col-lg-3" *ngFor="let person of peoples" style="margin-top: 470px;">
+                <div class="card" style="width: 16rem; height: 420px;" id="oe">
+                    <img class="card-img-top" id="pic" [src]="person.image" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ person.name }}</h5>
+                        <p class="card-text">{{ person.profession }}</p>
+                        <a href="#" class="btn btn-primary" id="go" (click)="bookNow(person)">Book Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

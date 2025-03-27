@@ -1,0 +1,90 @@
+<!--1-->
+<div>
+    <h1>PACKERS AND MOVERS</h1>
+    <img src="../../assets/packers/pm.1.jpg" id="aa">
+</div>
+<div>
+    <h2>Moving Made Simpler</h2>
+    <button type="button" class="btn btn-danger">ENQUIRE NOW</button>
+</div>
+
+<!--2a-->
+<div><h3>SERVICES</h3></div>
+<div class="row">
+    <div class="col">
+        <img src="../../assets/packers/pm.2.jpg" id="ba">
+    </div>
+    <div class="col">  
+        <img src="../../assets/packers/33.jpg" id="bb">
+    </div>
+    <div class="col">
+        <img src="../../assets/packers/4.jpg" id="bc">
+    </div>
+</div>
+
+<!---2b--->
+<div class="row">
+    <div>
+        <h1 id="bbb">HOME RELOCATION</h1>
+        <h4 id="bbf">CORPORATE RELOCATION SERVICES</h4>
+        <h5 id="bbg">CAR CARRIER SERVICES</h5>
+    </div>
+    <div>
+        <p id="bba">Moving your home is a long and stressful process. We are equipped with highly skilled personnel, which means you can be sure that everything will be packed and moved in a safe manner, making us an ideal option for your move.</p>
+        <p id="bbc">Our service is designed to meet all of the corporate relocation needs of an individual. Our aim is to deliver complete & customized corporate relocation services that improve your relocation experience & reduce risk exposure.</p>
+        <p id="bbd">Our main aim is to offer cost effective and personalized car carrier / car transportation services to our customers which ensure proper deliveries of cars and other vehicles and consider the safety of their vehicles.</p>
+    </div>
+</div>
+
+
+
+<!---3a--->
+<div class="row">
+    <div class="col">
+        <img src="../../assets/packers/5.jpg" id="ca">
+    </div>
+    <div class="col">
+        <img src="../../assets/packers/6.jpg" id="cpp">
+    </div>
+    <div class="col">
+        <img src="../../assets/packers/7.jpg" id="cc">
+    </div>
+</div>
+
+<!---3b--->
+<div class="row">
+    <div>
+        <h1 id="cca">LOADING & UNLOADING SERVICES</h1>
+        <h1 id="ccc">PACKING & UNPACKING SERVICES</h1>
+        <h1 id="cce">UNPACKING & REARRANGING SERVICES</h1>
+    </div>
+    <div>
+        <p id="ccb">We offer well thought-out, organized and dependable Loading and Unloading services preventing goods from any kind of scratches and breakage during the process of Loading and Unloading Ensuring your safety and prompt delivery.</p>
+        <p id="ccd">Whether your possessions are fragile or not, we ensure your belongings are moved safely. Our expert packers team has the proper training and equipment to make this process easy. In addition to this, we use specialized materials and high-quality boxes.</p>
+        <p id="ccf">Our company offers all kinds of unpacking and rearranging services to make the client's task of shifting easy.In this service our experienced personnel safely handle all your goods till they reach the desired destination.</p>
+    </div>
+</div>
+
+
+
+<!-- 4 -->
+<div id="four">
+    <div>
+        <h2 id="fem">Servicers</h2>
+        <div class="row">
+            <div class="row" id="jack">
+                <!-- Loop through the people array and display a card for each person -->
+                <div class="col-lg-3" *ngFor="let person of people">
+                    <div class="card" style="width: 16rem; height: 420px;" id="oe">
+                        <img class="card-img-top" id="pic" [src]="person.image" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">{{ person.name }}</h5>
+                            <p class="card-text">{{ person.profession }}</p>
+                            <a href="#" class="btn btn-primary" id="go" (click)="bookNow(person)">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

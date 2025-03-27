@@ -1,0 +1,53 @@
+<div class="sign-in-container">
+    <div class="row">
+
+        <div class="col-6" id="one">
+            <img src="../../assets/sign/home-services-app-500x500.webp" id="pic">
+        </div>
+
+        <div class="col-6" id="two">
+            <form [formGroup]="signInForm" (ngSubmit)="onSubmit()">
+
+              <div class="mb-3 mt-3">
+                <label for="name">Enter your full name:</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name" name="name" formControlName="name"
+                [ngClass]="{ 'is-invalid': submitted && f['name'].errors}">
+              </div>
+
+              <div class="mb-3 mt-3">
+                <label for="address">Enter your full address:</label>
+                <input type="text" class="form-control" id="address" placeholder="Enter your address" name="address" formControlName="address"
+                [ngClass]="{ 'is-invalid': submitted && f['name'].errors}">
+              </div>
+
+              <div class="mb-3 mt-3">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email" name="email" formControlName="email"
+                  [ngClass]="{ 'is-invalid': submitted && f['email'].errors}">
+              </div>
+          
+              <div class="mb-3">
+                <label for="pwd">Password:</label>
+                <input type="password" class="form-control" id="pwd" placeholder="Enter your password" name="pswd"
+                  formControlName="password" [ngClass]="{ 'is-invalid': submitted && f['password'].errors }">
+                <div *ngIf="submitted && f['password'].errors" class="invalid-feedback">
+                  <div *ngIf="f['password'].errors['required']">Password is required</div>
+                  <div *ngIf="f['password'].errors['minlength']">
+                    Password must be at least 6 characters
+                  </div>
+                  <div *ngIf="f['password'].errors['maxlength']">
+                    Password must not exceed 40 characters
+                  </div>
+                </div>
+              </div>
+            
+                <div class="form-group">
+                  <button type="submit" class="btn btn-primary">Sign In</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+ <br>
+ <br>
+ <br>
