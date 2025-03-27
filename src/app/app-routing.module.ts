@@ -76,7 +76,7 @@ const routes: Routes = [
   },
   {
     path:'maid', component:MaidComponent
-  }
+  },
 ];
 
 @NgModule({
