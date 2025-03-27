@@ -23,7 +23,7 @@ export class MaidComponent {
   constructor(){}
 
   bookNow(person:any){
-     const googleFormLink = 'https://forms.gle/eRFy73RG4UMv3MVh6';
+     const googleFormLink = 'https://forms.gle/PHk5qURtqfrkyawVA';
      window.open(googleFormLink,'_blank')
   }
 

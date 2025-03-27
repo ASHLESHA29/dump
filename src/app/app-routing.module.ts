@@ -17,6 +17,7 @@ import { SigninComponent } from './signin/signin.component';
 import { SignOutComponent } from './sign-out/sign-out.component';
 import { LogInComponent } from './log-in/log-in.component';
 import { LogOutComponent } from './log-out/log-out.component';
+import { MaidComponent } from './maid/maid.component';
 
 const routes: Routes = [
   {
@@ -69,7 +70,13 @@ const routes: Routes = [
   // { path: '**', redirectTo: '/login' }, // Redirect unknown routes to login
   {
     path:'log-out', component:LogOutComponent
-  }
+  },
+  {
+    path:'sign-out', component:SignOutComponent
+  },
+  {
+    path:'maid', component:MaidComponent
+  },
 ];
 
 @NgModule({
