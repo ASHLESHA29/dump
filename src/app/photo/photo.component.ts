@@ -7,10 +7,10 @@ import { Component } from '@angular/core';
 })
 export class PhotoComponent {
   people = [
-    { id:1, name:'name', profession:'-------------', image:'../../assets/beauty-treatment/Screenshot 2024-09-24 140413.png'},
-    { id:2, name:'name 2', profession:'----------', image:'../../assets/beauty-treatment/Screenshot 2024-09-24 140413.png'},
-    { id:3, name:'name 3', profession:'---------', image:'../../assets/beauty-treatment/Screenshot 2024-09-24 140413.png'},
-    { id:4, name:'name 4', profession:'----------', image:'../../assets/beauty-treatment/Screenshot 2024-09-24 140413.png'},
+    { id:1, name:'Golden Lens Studio', profession:'-------------', image:'../../assets/beauty-treatment/Screenshot 2024-09-24 140413.png'},
+    { id:2, name:'Timeless Frames', profession:'----------', image:'../../assets/beauty-treatment/Screenshot 2024-09-24 140413.png'},
+    { id:3, name:'The Portrait Gallery', profession:'---------', image:'../../assets/beauty-treatment/Screenshot 2024-09-24 140413.png'},
+    { id:4, name:'Elegant Snapshots', profession:'----------', image:'../../assets/beauty-treatment/Screenshot 2024-09-24 140413.png'},
   ];
 
   constructor(){}

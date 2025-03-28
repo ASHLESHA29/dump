@@ -9,10 +9,10 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 })
 export class BeautyTreatmentComponent {
   people = [
-    { id:1, name:'Mrs. Vaishali Mishra', profession:'-skincare(Rs.150/-), makeup(starting Rs.150/-), maicure(starting Rs.100/-), padicure(starting Rs.100/-), hair styling(starting Rs.100/-)', image:'../../assets/beauty-treatment/Screenshot 2024-09-24 140413.png'},
-    { id:2, name:'name 2', profession:'----------', image:'../../assets/beauty-treatment/Screenshot 2024-09-24 140413.png'},
-    { id:3, name:'name 3', profession:'---------', image:'../../assets/beauty-treatment/Screenshot 2024-09-24 140413.png'},
-    { id:4, name:'name 4', profession:'----------', image:'../../assets/beauty-treatment/Screenshot 2024-09-24 140413.png'},
+    { id:1, name:'The Beauty Lounge', profession:'-skincare(Rs.150/-), makeup(starting Rs.150/-), maicure(starting Rs.100/-), padicure(starting Rs.100/-), hair styling(starting Rs.100/-)', image:'../../assets/beauty-treatment/Screenshot 2024-09-24 140413.png'},
+    { id:2, name:'Glamour & Glow', profession:'makeup(starting Rs.150/-), maicure(starting Rs.100/-), padicure(starting Rs.100/-), hair styling(starting Rs.100/-)', image:'../../assets/beauty-treatment/Screenshot 2024-09-24 140413.png'},
+    { id:3, name:'Nature’s Touch Salon', profession:'-skincare(Rs.150/-), makeup(starting Rs.150/-), maicure(starting Rs.100/-), padicure(starting Rs.100/-)', image:'../../assets/beauty-treatment/Screenshot 2024-09-24 140413.png'},
+    { id:4, name:'Herbal Glow Studio', profession:'-skincare(Rs.150/-), makeup(starting Rs.150/-),padicure(starting Rs.100/-), hair styling(starting Rs.100/-)', image:'../../assets/beauty-treatment/Screenshot 2024-09-24 140413.png'},
   ];
   peoples = [
     { id:1, name:'name 1', profession:'--------', image:'../../assets/beauty-treatment/Screenshot 2024-09-24 140413.png'},
