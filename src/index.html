@@ -10,6 +10,38 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
+  <!-- Chatbot Button -->
+<button id="chatbot-btn" onclick="toggleChatbot()">
+  💬 Chat with us
+</button>
+
+<!-- Chatbase Chatbot -->
+<div id="chatbase-container" style="display: none;">
+  <iframe
+src="https://www.chatbase.co/chatbot-iframe/AQ9WXk4ckYp5ihNmwlC38"
+width="100%"
+height="100%"
+frameborder="0"
+id="chatbase"
+></iframe>
+</div>
+
+<script>
+  function toggleChatbot() {
+      var container = document.getElementById("chatbase-container");
+      var btn = document.getElementById("chatbot-btn");
+
+      if (container.style.display === "none" || container.style.display === "") {
+          container.style.display = "block";
+          btn.textContent = "❌ Close Chat";
+      } else {
+          container.style.display = "none";
+          btn.textContent = "💬 Chat with us";
+      }
+  }
+</script>
+
+
   <app-root></app-root>
 </body>
 </html>
