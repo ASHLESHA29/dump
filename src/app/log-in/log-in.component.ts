@@ -42,14 +42,38 @@ export class LogInComponent {
     if(this.signInForm.invalid){
       return;
     }
-    this.router.navigate(['/home']);
 
-    console.log(JSON.stringify(this.signInForm.value,null,2));
-  }
+    const {email, password} = this.signInForm.value;
+    const storedUser = localStorage.getItem(email);
+
+    if (storedUser) {
+      const userData = JSON.parse(storedUser);
+
+      if (userData.password===password) {
+        alert ('Login successful!');
+        this.router.navigate(['/home']);
+      } else {
+        this.errorMessage = 'Incorrect password. Please try again. ';
+      }
+    } else {
+      this.errorMessage = 'User not found. Please sign up first.';
+    }
+
+
+
+
+
+
+  //   this.router.navigate(['/home']);
+
+  //   console.log(JSON.stringify(this.signInForm.value,null,2));
+  // }
+
+
 
 
 
   
 
 
-}
+}}

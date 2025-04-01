@@ -39,6 +39,17 @@ export class SigninComponent {
       return;
     }
 
+
+    const {email, password} = this.signInForm.value;
+    if(localStorage.getItem(email)) {
+      alert('User already registered. Please log in. ');
+      this.router.navigate(['/login'])
+    } else {
+      localStorage.setItem(email, JSON.stringify(this.signInForm.value));
+      alert('Registration successful! You can now log in.');
+      this.router.navigate(['/login']);
+    }
+
     this.router.navigate(['/home']);
 
     console.log(JSON.stringify(this.signInForm.value,null,4));
