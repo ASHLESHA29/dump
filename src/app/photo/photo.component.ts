@@ -7,10 +7,10 @@ import { Component } from '@angular/core';
 })
 export class PhotoComponent {
   people = [
-    { id:1, name:'Golden Lens Studio', profession:'-------------', image:'../../assets/beauty-treatment/Screenshot 2024-09-24 140413.png'},
-    { id:2, name:'Timeless Frames', profession:'----------', image:'../../assets/beauty-treatment/Screenshot 2024-09-24 140413.png'},
-    { id:3, name:'The Portrait Gallery', profession:'---------', image:'../../assets/beauty-treatment/Screenshot 2024-09-24 140413.png'},
-    { id:4, name:'Elegant Snapshots', profession:'----------', image:'../../assets/beauty-treatment/Screenshot 2024-09-24 140413.png'},
+    { id:1, name:'Golden Lens Studio', profession:'(Rate: ₹300/hr),	Individual and family portraits, Professional headshots & corporate portraits, Maternity and newborn, Fashion & model portfolio shoots', image:'../../assets/beauty-treatment/Screenshot 2024-09-24 140413.png'},
+    { id:2, name:'Timeless Frames', profession:'(Rate: ₹400/hr), Wedding films & highlight reels, Promotional & corporate videos, Music videos & short films, Social media reels & YouTube content', image:'../../assets/beauty-treatment/Screenshot 2024-09-24 140413.png'},
+    { id:3, name:'The Portrait Gallery', profession:'(Rate: ₹600/hr), Music videos, Pre-wedding & couple shoots, Baby & kids photography, Pet photography, Conceptual & themed shoots', image:'../../assets/beauty-treatment/Screenshot 2024-09-24 140413.png'},
+    { id:4, name:'Elegant Snapshots', profession:'(Rate: ₹500/hr), E-commerce and product shoots, Food and beverage photography, Real estate and architectural photography', image:'../../assets/beauty-treatment/Screenshot 2024-09-24 140413.png'},
   ];
 
   constructor(){}

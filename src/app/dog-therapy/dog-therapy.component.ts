@@ -7,10 +7,10 @@ import { Component } from '@angular/core';
 })
 export class DogTherapyComponent {
   people = [
-    { id:1, name:'Golden Retriever', profession:'-------------', image:'../../assets/beauty-treatment/Screenshot 2024-09-24 140413.png'},
-    { id:2, name:'Labrador Retriever', profession:'----------', image:'../../assets/beauty-treatment/Screenshot 2024-09-24 140413.png'},
-    { id:3, name:'Shih Tzu', profession:'---------', image:'../../assets/beauty-treatment/Screenshot 2024-09-24 140413.png'},
-    { id:4, name:'Pomeranian', profession:'----------', image:'../../assets/beauty-treatment/Screenshot 2024-09-24 140413.png'},
+    { id:1, name:'Golden Retriever', profession:'Rate: ₹200/hr', image:'../../assets/beauty-treatment/Screenshot 2024-09-24 140413.png'},
+    { id:2, name:'Labrador Retriever', profession:'Rate: 240/hr', image:'../../assets/beauty-treatment/Screenshot 2024-09-24 140413.png'},
+    { id:3, name:'Shih Tzu', profession:'Rate: 180/hr', image:'../../assets/beauty-treatment/Screenshot 2024-09-24 140413.png'},
+    { id:4, name:'Pomeranian', profession:'Rate: 180/hr', image:'../../assets/beauty-treatment/Screenshot 2024-09-24 140413.png'},
   ];
 
   constructor(){}
