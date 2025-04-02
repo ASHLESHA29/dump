@@ -8,10 +8,10 @@ import { Component } from '@angular/core';
 export class MaidComponent {
 
   people = [
-    { id:1, name:'Household Cleaning Services ', profession:'(Rate: ₹400/hr), Regular house cleaning, Deep cleaning, Window and glass cleaning, Laundry and ironing services', image:'../../assets/beauty-treatment/Screenshot 2024-09-24 140413.png'},
-    { id:2, name:'Childcare & Babysitting ', profession:'(Rate: ₹300/hr), Taking care of infants and toddlers, Feeding, bathing, and diaper changing, Engaging in educational and play activities', image:'../../assets/beauty-treatment/Screenshot 2024-09-24 140413.png'},
-    { id:3, name:'Elderly Care Assistance ', profession:'(Rate: ₹300/hr), Assisting with mobility and daily hygiene, Preparing meals and feeding, Medication reminders and companionship', image:'../../assets/beauty-treatment/Screenshot 2024-09-24 140413.png'},
-    { id:4, name:'Home Management & Organization ', profession:'(Rate: ₹400/hr), Decluttering and organizing wardrobes, Managing home inventory and supplies, Seasonal cleaning and maintenance', image:'../../assets/beauty-treatment/Screenshot 2024-09-24 140413.png'},
+    { id:1, name:'Household Cleaning Services ', profession:'(Rate: ₹400/hr)\n\n Regular house cleaning, Deep cleaning\n Window and glass cleaning\n Laundry and ironing services', image:'../../assets/beauty-treatment/Screenshot 2024-09-24 140413.png'},
+    { id:2, name:'Childcare & Babysitting ', profession:'(Rate: ₹300/hr)\n\n Taking care of infants and toddlers\n Feeding\n bathing\n and diaper changing\n Engaging in educational and play activities', image:'../../assets/beauty-treatment/Screenshot 2024-09-24 140413.png'},
+    { id:3, name:'Elderly Care Assistance ', profession:'(Rate: ₹300/hr)\n\n Assisting with mobility and daily hygiene\n Preparing meals and feeding\n Medication reminders and companionship', image:'../../assets/beauty-treatment/Screenshot 2024-09-24 140413.png'},
+    { id:4, name:'Home Management & Organization ', profession:'(Rate: ₹400/hr)\n\n Decluttering and organizing wardrobes\n Managing home inventory and supplies\n Seasonal cleaning and maintenance', image:'../../assets/beauty-treatment/Screenshot 2024-09-24 140413.png'},
   ];
   // peoples = [
   //   { id:1, name:'name 1', profession:'--------', image:'../../assets/beauty-treatment/Screenshot 2024-09-24 140413.png'},

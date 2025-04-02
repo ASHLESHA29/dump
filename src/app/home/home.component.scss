@@ -4,8 +4,14 @@
         font-weight: 600;
         border-width: 0.8px;
     }
+	#black{
+		background-color: #f1fd71;
+		height: 70px;
+		margin-top: 100px;
+		width: 100%;
+	}
 	#tc{
-		margin-top: 10px;
+		margin-top: 1px;
 		width: 100%;
 		height: 88px;
 		padding-top: 10px;
@@ -120,9 +126,9 @@
         width: 550px;
     }
 	#text{
-		color: black;
+		color: rgb(0, 0, 0);
 		text-align:center;
-		margin-top: 10.5%;
+		margin-top: 22px;
 		margin-bottom: -22px;
 		font-size: 18px;
 		font-style:normal;
@@ -139,17 +145,18 @@
 		color: aliceblue;
 		font-family: 'Poppins', sans-serif;
 		margin-left: 750px;
-		margin-top: -30px;
+		margin-top: -240px;
 		margin-bottom: 20px;
 		font-size: 15px;
 		padding-top: 10px;
 		padding-left: 20px;
 		padding-bottom: 10px;
 		padding-right: 20px;
-		background-color: #f34e51 ;
+		background-color: #000000 ;
 		border: none;
 		border-radius: 10px;
-		width: 30%;
+		width: 10%;
+		height: 40px;
 	}
 	// #hero{
 	// height: 615px;

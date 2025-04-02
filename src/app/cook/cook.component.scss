@@ -194,21 +194,170 @@ h6{
     margin-bottom: -0.5px;
     margin-top: 0px;
 }
+// #four{
+//     height: 710px;
+// 	background-color: #f8fbfd;
+//     width: 100%;
+//     margin-top: 50px;
+// }
+// #fem{
+//     color: rgb(25, 11, 64);
+//     font-size: 45px;
+//     font-weight:bold;
+//     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+//     text-align: center;
+//     margin-top: 45px;
+//     position: absolute;
+//     margin-left: 526px;
+// }
+// #mal{
+//     color: rgb(27, 26, 26);
+//     text-align:left;
+//     font-size: 32px;
+//     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+//     margin: 40px;
+//     margin-top: 520px;
+//     position:absolute;
+//     margin-left: 60px;
+// }
+// #cd{
+// 	background-color: #ffcdce ;
+//     border-radius: 20px;
+//     width: 700px;
+//     margin: 10% auto;
+//     margin-top: -30px;
+//     height: 200px;
+// }
+// #cdd{
+// 	background-color: #ffcdce ;
+//     border-radius: 20px;
+//     width: 700px;
+//     margin: 10% auto;
+//     height: 200px;
+//     margin-top: -50px;
+// }
+// #cdb{
+// 	background-color: #ffcdce ;
+//     border-radius: 20px;
+//     width: 700px;
+//     margin: 10% auto;
+//     height: 200px;
+//     margin-top: -50px;
+// }
+// .card-title{
+//     font-size: 20px;
+//     margin-bottom: 64px;
+//     margin-top: 0px;
+//     color: black;
+// }
+// #rr{
+//     padding: 80px;
+//     margin: 87px;
+//     margin-top: 30px;
+//     margin-bottom: 20px;
+//     background-color: rgb(255, 255, 255);
+//     border-radius: 20px;
+//     width: 498px;
+//     height: 37px;
+// }
+// #sd{
+//     margin-top: 30px;
+// }
+// .scroll-bg{
+// 	background-color: #f8fbfd;
+//     width: 940px;
+//     height: 250px;
+//     padding: 38px;
+//     margin-top: 147px;
+//     position: absolute;
+//     margin-left: 142px;
+// }
+// .scroll-div{
+//     width: 900px;
+// 	background-color: #ffffff;
+//     height: 246px;
+//     overflow: hidden;
+//     overflow-y: scroll;
+//     margin-left: 17px;
+// }
+// .scroll-object{
+//     color: white;
+//     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+//     font-size: 15px;
+//     padding: 20px;
+// }
+// #kk{
+//     margin-top: 600px;
+// }
+// // .card{
+// //     margin-left: 100px;
+// //     position: absolute;
+// //     margin-top: 140px;
+// // }
+// #pic{
+//     height: 200px;
+// }
+// // .card-text{
+// //     margin-top: 30px;
+// //     font-size: 15px;
+// // }
+// .card-text {
+//     white-space: pre-line; /* Ensures new lines are respected */
+//     text-align: left; /* Aligns text properly */
+//     line-height: 1.5; /* Improves readability */
+//     margin-top: 30px;
+//     font-size: 14px;
+//   }
+  
+//   .card {
+//     height: 100%; /* Ensures equal card height */
+//     display: flex;
+//     flex-direction: column;
+//     margin-left: 100px;
+//     position: absolute;
+//     margin-top: 140px;
+//     justify-content: space-between;
+//   }
+
+  
+// .card-title{
+//     margin-left: 0px;
+// }
+// #go{
+//     margin-top: 10px;
+//     margin-left:123px;
+// }
+// #oe{
+//     margin-left: 60px;
+// }
+// #tt{
+//     margin-left: 355px;
+// }
+// #th{
+//     margin-left: 655px;
+// }
+// #fo{
+//     margin-left: 950px;
+// }
+// #you{
+//     margin-top: 465px;
+//     position: absolute;
+// }
 #four{
-    height: 710px;
+    height: 760px;
 	background-color: #f8fbfd;
     width: 100%;
-    margin-top: 50px;
+    margin-top: 90px;
 }
 #fem{
-    color: rgb(25, 11, 64);
-    font-size: 45px;
-    font-weight:bold;
+    color: rgb(27, 26, 26);
+    text-align:left;
+    font-size: 32px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
-    margin-top: 45px;
-    position: absolute;
-    margin-left: 526px;
+    margin: 40px;
+    margin-top: 60px;
+    position:absolute;
+    margin-left: 60px;
 }
 #mal{
     color: rgb(27, 26, 26);
@@ -249,6 +398,7 @@ h6{
     margin-bottom: 64px;
     margin-top: 0px;
     color: black;
+    margin-left: 0px;
 }
 #rr{
     padding: 80px;
@@ -260,6 +410,7 @@ h6{
     width: 498px;
     height: 37px;
 }
+
 #sd{
     margin-top: 30px;
 }
@@ -268,7 +419,7 @@ h6{
     width: 940px;
     height: 250px;
     padding: 38px;
-    margin-top: 147px;
+    margin-top: 127px;
     position: absolute;
     margin-left: 142px;
 }
@@ -289,24 +440,56 @@ h6{
 #kk{
     margin-top: 600px;
 }
-.card{
-    margin-left: 100px;
-    position: absolute;
-    margin-top: 140px;
+
+#jack{
+    margin-left: 10px;
+    width: 90%;
 }
 #pic{
     height: 200px;
 }
-.card-text{
-    margin-top: 30px;
-    font-size: 15px;
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;position: absolute;
+    height: 450px; /* Ensures equal card height */
+    margin-left: 75px;
+    margin-top: 140px;
+    width: 240px;
+
 }
-.card-title{
-    margin-left: 0px;
+
+.card-body {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-grow: 1; /* Expands the body to occupy available space */
 }
+
+.card-text {
+    flex-grow: 1; /* Pushes the button to the bottom */
+    text-align: left; /* Ensures text alignment */
+    font-size: 14px;
+    line-height: 1.5;
+    white-space: pre-line; /* Ensures new lines are respected */
+line-height: 1.5; /* Improves readability */
+ margin-top: 36px;
+
+}
+
+// .btn {
+//     margin-top: 90px; /* Forces button to the bottom */
+//     align-self: center; /* Centers the button */
+//     width: 120px; /* Adjust button width if needed */
+//     margin-left: 90px;
+// }
+
+
 #go{
-    margin-top: 10px;
-    margin-left:123px;
+    margin-top: 315px;
+    margin-left: 123px;
+    position:absolute;
+    width: 100px;
 }
 #oe{
     margin-left: 60px;
